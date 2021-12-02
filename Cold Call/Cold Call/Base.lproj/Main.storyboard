@@ -34,21 +34,12 @@
                                     <action selector="btnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vS5-ew-sHE"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WNG-NQ-LXU">
-                                <rect key="frame" x="207" y="448" width="0.0" height="0.0"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="150"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="WNG-NQ-LXU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CHW-0b-jlO"/>
                             <constraint firstItem="sLq-uf-kJC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Cf7-wv-CbC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KeN-s5-EZT" secondAttribute="trailing" constant="100" id="LMI-Dm-sqF"/>
-                            <constraint firstItem="WNG-NQ-LXU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Lsz-Jn-eOt"/>
-                            <constraint firstItem="WNG-NQ-LXU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mlQ-MN-cdl"/>
                             <constraint firstItem="KeN-s5-EZT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nKz-cx-eJE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KeN-s5-EZT" secondAttribute="bottom" constant="20" id="whg-Dt-7Gw"/>
                             <constraint firstItem="sLq-uf-kJC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xMp-d9-E6e"/>
@@ -57,7 +48,6 @@
                     </view>
                     <connections>
                         <outlet property="nameLable" destination="sLq-uf-kJC" id="bYc-u3-iIE"/>
-                        <outlet property="nummber" destination="WNG-NQ-LXU" id="ync-lg-sH9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
